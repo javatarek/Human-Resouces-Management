@@ -1,0 +1,23 @@
+SMAP
+deductionform_jsp.java
+JSP
+*S JSP
+*F
++ 0 deductionform.jsp
+salary/deductionform.jsp
+*L
+5,17:60
+21:108,14
+22,2:122
+23:168,6
+23,3:126
+25:187,6
+25,2:131
+26:206,6
+26,3:135
+28:225,6
+28,4:140
+31:244,5
+31,2:146
+32,12:79
+*E

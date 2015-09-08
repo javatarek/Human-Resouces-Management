@@ -1,0 +1,37 @@
+  <%@taglib  uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib  uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
+<%@taglib uri="/struts-tags" prefix="s" %>
+<sql:setDataSource var="tarik" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/hrm"
+                   user="root" password="my1234"/>
+<sql:query var="conn" dataSource="${tarik}">
+select * from deduction ;   
+
+</sql:query>
+<table border="1"  width="50%" style="background-image:url(../images/tableimage.jpg) " align="center">
+    <caption style="background-color: #343434;color: lightcoral;font-size: 30px">View Deduction</caption>  
+    
+    <thead>
+        <tr>
+            <td>Provident Fund</td>
+            <td>Advance</td>
+            <td>Tax</td>
+            <td>Employee Id</td>
+        </tr>
+    </thead>
+<c:forEach var="java" items="${conn.rows}">
+    <tr>
+        <td><c:out value="${java.provident_fund}"/></td>
+         <td><c:out value="${java.advance}"/></td>
+          <td><c:out value="${java.tax}"/></td>
+          
+          <td><c:out value="${java.employee_id}"/></td>
+        
+    </tr>
+    
+</c:forEach>
+     
+</table>
+<a href="managercontrolpage.jsp" >Back</a>
+
+
+

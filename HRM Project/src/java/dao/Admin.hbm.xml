@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 18, 2014 9:57:44 AM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="dao.Admin" table="admin" catalog="hrm">
+        <id name="userId" type="string">
+            <column name="user_id" length="45" />
+            <generator class="assigned"></generator>
+        </id>
+        <property name="password" type="string">
+            <column name="password" length="45" />
+        </property>
+        <property name="employeeType" type="string">
+            <column name="employee_type" length="45" />
+        </property>
+        <property name="department" type="string">
+            <column name="department" length="45" />
+        </property>
+        <property name="unit" type="string">
+            <column name="unit" length="45" />
+        </property>
+        <property name="lastLoginOn" type="string">
+            <column name="last_login_on" length="45" />
+        </property>
+        <property name="firstName" type="string">
+            <column name="first_name" length="45" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="last_name" length="45" />
+        </property>
+        <property name="userName" type="string">
+            <column name="user_name" length="45" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>

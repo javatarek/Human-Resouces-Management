@@ -1,0 +1,87 @@
+ul#css3menu1{
+	margin:0;list-style:none;padding:0;background-color:#dedede;border-width:1px;border-style:solid;border-color:#5f5f5f;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;font-size:0;z-index:999;position:relative;display:block;float:left;}
+ul#css3menu1 li{
+	display:block;white-space:nowrap;font-size:0;}
+ul#css3menu1>li{
+	margin:0;}
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+	outline-style:none;}
+ul#css3menu1 a{
+	display:block;vertical-align:middle;text-align:left;text-decoration:none;font:bold 20px Trebuchet MS;color:red;text-shadow:#FFF 0 0 1px;cursor:pointer;padding:10px;background-color:black;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 0;border-width:1px 0 0 0;border-style:solid;border-color:#C0C0C0;}
+ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
+	background-color:#61a700;border-color:#C0C0C0;border-style:solid;color:blue;text-shadow:#FFF 0 0 1px;background-image:url("mainbk.png");background-position:0 100px;text-decoration:none;}
+ul#css3menu1 > label.switch{
+	display:none;cursor:pointer;width:25px;height:20px;padding:10px;}
+ul#css3menu1 > label.switch:before{
+	content:"";position:absolute;display:block;height:4px;width:25px;border-radius:5px;background:red;-moz-box-shadow:0 8px red, 0 16px red;-webkit-box-shadow:0 8px red, 0 16px red;box-shadow:0 8px red, 0 16px red;}
+ul#css3menu1 > label.switch:hover:before{
+	background:blue;-moz-box-shadow:0 8px blue, 0 16px blue;-webkit-box-shadow:0 8px blue, 0 16px blue;box-shadow:0 8px blue, 0 16px blue;}
+ul#css3menu1 > .switchbox{
+	display:none;}
+ul#css3menu1 li.topfirst>a{
+	border-width:0;border-radius:16px 16px 0 0;-moz-border-radius:16px 16px 0 0;-webkit-border-radius:16px;-webkit-border-bottom-right-radius:0;-webkit-border-bottom-left-radius:0;}
+ul#css3menu1 li.toplast>a{
+	border-radius:0 0 16px 16px;-moz-border-radius:0 0 16px 16px;-webkit-border-radius:0;-webkit-border-bottom-right-radius:16px;-webkit-border-bottom-left-radius:16px;}
+@media screen and (max-width: 768px) {
+	ul#css3menu1 > li {
+		position: initial;}
+	ul#css3menu1 ul .submenu,ul#css3menu1 li > ul {
+		left: 0; right:auto; top: 100%;}
+	ul#css3menu1 .submenu,ul#css3menu1 ul,ul#css3menu1 .column {
+		-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;padding-right: 0;width: 100% !important;}
+}
+@media screen and (max-width: 620px) {
+	ul#css3menu1 {
+		width: 100%;}
+	ul#css3menu1 > li {
+		display: none !important;		position: relative;		width: 100% !important;}
+	ul#css3menu1 > label.switch,ul#css3menu1 .switchbox:checked ~ li {
+		display: block !important;}
+}
+
+
+ul#css3menu1{
+	margin:0;list-style:none;padding:0 3px 3px;background-color:#424542;border-width:2px;border-style:solid;border-color:#FFF;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;font-size:0;z-index:999;position:relative;display:block;float:left;}
+ul#css3menu1 li{
+	display:block;white-space:nowrap;font-size:0;}
+ul#css3menu1>li{
+	margin:3px 0 0;}
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+	outline-style:none;}
+ul#css3menu1 a{
+	display:block;vertical-align:middle;text-align:left;text-decoration:none;font:20px Trebuchet MS;color:lime;cursor:pointer;padding:10px;background-color:#424542;background-image:none;background-repeat:repeat;border-width:1px 0 0 0;border-style:solid;border-color:#424542;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;}
+ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
+	background-color:#00aaff;border-color:#424542;border-style:solid;color:#000;background-image:url("mainbk.png");text-decoration:none;}
+ul#css3menu1 > label.switch{
+	display:none;cursor:pointer;width:25px;height:20px;padding:10px;}
+ul#css3menu1 > label.switch:before{
+	content:"";position:absolute;display:block;height:4px;width:25px;border-radius:4px;background:lime;-moz-box-shadow:0 8px lime, 0 16px lime;-webkit-box-shadow:0 8px lime, 0 16px lime;box-shadow:0 8px lime, 0 16px lime;}
+ul#css3menu1 > label.switch:hover:before{
+	background:#000;-moz-box-shadow:0 8px #000, 0 16px #000;-webkit-box-shadow:0 8px #000, 0 16px #000;box-shadow:0 8px #000, 0 16px #000;}
+ul#css3menu1 > .switchbox{
+	display:none;}
+ul#css3menu1 li.topfirst>a{
+	border-width:0;}
+@media screen and (max-width: 825px) {
+	ul#css3menu1 > li {
+		position: initial;}
+	ul#css3menu1 ul .submenu,ul#css3menu1 li > ul {
+		left: 0; right:auto; top: 100%;}
+	ul#css3menu1 .submenu,ul#css3menu1 ul,ul#css3menu1 .column {
+		-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;padding-right: 0;width: 100% !important;}
+}
+@media screen and (max-width: 824px) {
+	ul#css3menu1 {
+		width: 100%;}
+	ul#css3menu1 > li {
+		display: none !important;		position: relative;		width: 100% !important;}
+	ul#css3menu1 > label.switch,ul#css3menu1 .switchbox:checked ~ li {
+		display: block !important;}
+}
+
+.line{border-right: 5px solid;
+float: left;
+padding: 10px;
+line-height: 1000px;
+margin-right: 24px;
+}

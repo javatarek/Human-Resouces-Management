@@ -1,0 +1,17 @@
+SMAP
+viewdeductionform_jsp.java
+JSP
+*S JSP
+*F
++ 0 viewdeductionform.jsp
+admin/viewdeductionform.jsp
+*L
+5,15:60
+19:101,14
+20,3:115
+22:148,6
+22,4:120
+25:167,5
+25,2:126
+26,7:77
+*E

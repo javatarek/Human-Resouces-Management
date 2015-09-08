@@ -1,0 +1,28 @@
+SMAP
+updatetotaldeductform_jsp.java
+JSP
+*S JSP
+*F
++ 0 updatetotaldeductform.jsp
+salary/updatetotaldeductform.jsp
+*L
+1,12:63
+12:113,14
+13,3:127
+15:166,6
+15,2:132
+16:185,6
+16,2:136
+17:204,6
+17,2:140
+18:223,5
+18,2:144
+19,9:77
+27:241,14
+28,3:255
+30:287,6
+30,3:260
+32:306,5
+32,2:265
+33,7:88
+*E

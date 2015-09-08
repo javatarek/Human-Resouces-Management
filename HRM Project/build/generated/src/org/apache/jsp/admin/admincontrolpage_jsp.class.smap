@@ -1,0 +1,22 @@
+SMAP
+admincontrolpage_jsp.java
+JSP
+*S JSP
+*F
++ 0 admincontrolpage.jsp
+admin/admincontrolpage.jsp
+*L
+1,4:60
+12,19:64
+30:160,5
+30,4:85
+33:178,14
+34:192
+34:217,5
+34,2:195
+35,17:91
+52:108,2
+53,4:110
+57:114,2
+58,27:116
+*E

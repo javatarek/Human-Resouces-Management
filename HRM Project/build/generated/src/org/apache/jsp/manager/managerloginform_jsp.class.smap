@@ -1,0 +1,21 @@
+SMAP
+managerloginform_jsp.java
+JSP
+*S JSP
+*F
++ 0 managerloginform.jsp
+manager/managerloginform.jsp
+*L
+5,15:66
+19:110,4
+19,2:83
+20:127,14
+21:141
+21:174,7
+21,2:144
+22:194,6
+22,2:148
+23:213,6
+23,2:152
+24,6:87
+*E

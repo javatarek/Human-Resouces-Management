@@ -1,0 +1,18 @@
+SMAP
+managercontrolpage_jsp.java
+JSP
+*S JSP
+*F
++ 0 managercontrolpage.jsp
+manager/managercontrolpage.jsp
+*L
+1,4:60
+12,19:64
+30:136,5
+30,2:85
+31:154,14
+32:168
+32:193,6
+32,2:171
+33,30:89
+*E

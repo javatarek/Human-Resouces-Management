@@ -1,0 +1,148 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name="logina" class="dao.LoginAction" method="logina">
+      <result name="input">/admin/admincontrolpage.jsp</result>
+           <result name="success">/admin/admincontrolpage.jsp</result>
+            
+            <result name="error">/admin/Errorpage.jsp</result>
+        </action>
+        
+        <action name="loginm" class="role.RoleAction" method="loginm">
+            <result name="input">/manager/managercontrolpage.jsp</result>
+           <result name="success">/manager/managercontrolpage.jsp</result>
+            <result name="error">/manager/Errorpage.jsp</result>
+            
+        </action>
+        <action name="insert" class="dao.LoginAction" >
+            <result name="input">/admin/insertsuccess.jsp</result>
+            <result name="success">/admin/insertsuccess.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+      
+         
+         <action name="view" class="dao.LoginAction" method="view">
+            <result name="input">/admin/viewsuccess.jsp</result>
+             <result name="success">/admin/viewsuccess.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+        
+        
+        
+         <action name="employeeinsert" class="dao.LoginAction" method="insert" >
+             <result name="input" >/admin/addEmployee.jsp</result>
+            <result name="success">/admin/insertsuccess.jsp</result>
+            
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+          
+    
+         <action name="employeeview" class="dao.LoginAction" method="employeeView">
+             <result name="input">/admin/employeeviewsuccess.jsp</result>
+            <result name="success">/admin/employeeviewsuccess.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+        
+          <action name="updateemployee" class="dao.LoginAction" method="updateEmployee">
+              <result name="input">/admin/updatesuccess.jsp</result>
+            <result name="success">/admin/updatesuccess.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+        
+        <action name="createrole" class="role.RoleAction" method="createRole">
+             <result name="input">/admin/rolesuccess.jsp</result>
+            <result name="success">/admin/rolesuccess.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+        
+        <action name="logoutm" class="logout.Logout" method="logoutm"> 
+            <result name="success">/manager/managerloginform.jsp</result> 
+        </action> 
+        
+         <action name="logouta" class="logout.Logout" method="logouta"> 
+            <result name="success">/admin/adminloginform.jsp</result> 
+        </action> 
+        
+         
+        <action name="logine" class="role.RoleAction" method="logine">
+            <result name="input">/employees/employeespage.jsp</result>
+           <result name="success">/employees/employeespage.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+         <action name="logoute" class="logout.Logout" method="logoute"> 
+            <result name="success">/employees/employeesloginform.jsp</result> 
+        </action> 
+        
+       
+        
+         <action name="attendanceinsert" class="attendance.AttendanceAction"   >
+             <result name="input" >/attendance/attendancesetting.jsp</result>
+            <result name="success">/admin/insertsuccess.jsp</result>
+            
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+        
+        
+         <action name="atview" class="attendance.AttendanceAction" method="attendanceview">
+             <result name="input">/manager/viewattendance.jsp</result>
+            <result name="success">/manager/viewattendance.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+        
+         <action name="pview" class="dao.LoginAction" method="viewProfile">
+              <result name="input">/employees/profilesetting.jsp</result>
+            <result name="success">/employees/profilesetting.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+       
+           <action name="ins" class="leave.LeaveAction" >
+               <result name="input">../admin/insertsuccess.jsp</result>
+            <result name="success">../admin/insertsuccess.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+        
+         <action name="aview" class="dao.LoginAction" method="adminProfile">
+              <result name="input">/admin/myprofile.jsp</result>
+            <result name="success">/admin/myprofile.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+        
+          <action name="revoke" class="role.RoleAction" method="revokeRole"> 
+            <result name="success">/admin/roledeletesuccess.jsp</result> 
+        </action>
+        
+         <action name="updaterole" class="role.RoleAction" method="updateRole">
+              <result name="input">/admin/updatesuccess.jsp</result>
+            <result name="success">/admin/updatesuccess.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+       
+        
+        <action name="mview" class="dao.LoginAction" method="viewMProfile">
+              <result name="input">/manager/mprofilesetting.jsp</result>
+            <result name="success">/manager/mprofilesetting.jsp</result>
+            <result name="error">/Errorpage.jsp</result>
+            
+        </action>
+        
+        
+           
+    </package>
+</struts>

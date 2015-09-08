@@ -1,0 +1,17 @@
+SMAP
+revokerole_jsp.java
+JSP
+*S JSP
+*F
++ 0 revokerole.jsp
+admin/revokerole.jsp
+*L
+5,14:60
+18:98,14
+19:112
+19:142,6
+19,2:115
+20:161,5
+20,3:119
+22,5:76
+*E

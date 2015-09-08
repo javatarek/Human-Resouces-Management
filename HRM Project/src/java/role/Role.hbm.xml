@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 18, 2014 9:57:44 AM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="role.Role" table="role" catalog="hrm">
+        <id name="employeeId" type="string">
+            <column name="employee_id" length="45" />
+            <generator class="assigned"></generator>
+        </id>
+        <property name="departmentId" type="string">
+            <column name="department_id" length="45" />
+        </property>
+        <property name="roleName" type="string">
+            <column name="role_name" length="45" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>

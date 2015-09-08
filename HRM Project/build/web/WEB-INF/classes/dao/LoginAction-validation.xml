@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE validators PUBLIC 'tarikul' 'http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd'>
+
+<validators>
+    <field name="employee.email">
+        <field-validator type="email">
+            <message>Please input your valid email</message>
+        </field-validator>
+    </field>
+    <field name="employee.hireDate">
+        <field-validator type="date">
+            <param name="min">10/10/1990</param>
+             <param name="max">10/10/2050</param>
+            <message>Please input date betwin ${min} and ${max}</message>
+           
+        </field-validator>
+    </field>
+    
+     
+    
+    
+</validators>

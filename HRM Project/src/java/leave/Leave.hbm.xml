@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 18, 2014 9:57:44 AM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="leave.Leave" table="leave" catalog="hrm">
+        <id name="casualLeave" type="int">
+            <column name="casual_leave" />
+            <generator class="assigned"></generator>
+        </id>
+        <property name="medicalLeave" type="java.lang.Integer">
+            <column name="medical_leave" />
+        </property>
+        <property name="specialLeave" type="java.lang.Integer">
+            <column name="special__leave" />
+        </property>
+        <property name="officeLeave" type="java.lang.Integer">
+            <column name="office_leave" />
+        </property>
+        <property name="leaveWithoutPay" type="java.lang.Integer">
+            <column name="leave_without_pay" />
+        </property>
+        <property name="leaveWithPay" type="java.lang.Integer">
+            <column name="leave_with_pay" />
+        </property>
+        <property name="employeeId" type="string">
+            <column name="employee_id" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>

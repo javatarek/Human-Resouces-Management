@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 18, 2014 9:57:44 AM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="leave.LeaveForm" table="leave_form" catalog="hrm">
+        <id name="employeeId" type="string">
+            <column name="employee_id" length="45" />
+            <generator class="assigned" />
+        </id>
+        <property name="dayCount" type="int">
+            <column name="day_count" length="45" not-null="true" />
+        </property>
+        <property name="employeeName" type="string">
+            <column name="employee_name" length="45" not-null="true" />
+        </property>
+        <property name="month" type="string">
+            <column name="month" length="45" not-null="true" />
+        </property>
+        <property name="department" type="string">
+            <column name="department" length="45" not-null="true" />
+        </property>
+        <property name="leaveType" type="string">
+            <column name="leave_type" length="45" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
